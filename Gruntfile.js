@@ -15,7 +15,7 @@ module.exports = function(grunt){
         sass_globbing: {
             your_target: {
                 files: {
-                    'src/sass/partials/_combined.scss': 'themes/simple/sass/partials/**/*.scss'
+                    'src/sass/partials/_combined.scss': 'src/sass/partials/**/*.scss'
                 },
                 options: {
                     useSingleQuotes: false,

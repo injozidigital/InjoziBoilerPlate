@@ -27,7 +27,12 @@ http://sass-lang.com/
 http://compass-style.org/
 http://breakpoint-sass.com/
 http://www.zell-weekeat.com/susy2-tutorial-2/
+http://gruntjs.com/getting-started
+http://bower.io/
+http://greensock.com/docs/#/HTML5/
 
+
+still need to play with:https://www.npmjs.com/package/nightwatch
 
 
 css

@@ -1,2 +1,14 @@
 archive
 node_modules
+
+.idea/*
+
+.idea/workspace.xml
+
+.sass-cache/*
+
+src/bower_components/*
+
+src/css/dist/application.css
+
+.idea/workspace.xml

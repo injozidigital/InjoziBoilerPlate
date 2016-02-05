@@ -1,23 +1,11 @@
 {
-  "name": "fullpage.js",
-  "homepage": "http://alvarotrigo.com/fullPage/",
+  "name": "injozi",
   "authors": [
-    "Alvaro Trigo https://github.com/alvarotrigo"
+    "Mark 'the hung' Steinbuch"
   ],
-  "description": "Create  beautiful fullscreen scrolling websites",
-  "main": [
-    "jquery.fullPage.js",
-    "jquery.fullPage.css",
-    "jquery.fullPage.scss",
-    "vendors/jquery.easings.min.js",
-    "vendors/jquery.slimscroll.min.js"
-  ],
+  "description": "Create  majestic websites",
   "keywords": [
-    "jquery",
-    "scrolling",
-    "single_page",
-    "one_page",
-    "sliding"
+    "jquery"
   ],
   "license": "MIT",
   "ignore": [
@@ -29,7 +17,6 @@
     "examples"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5",
       "jquery": ">=1.9.1"
     }
 }
