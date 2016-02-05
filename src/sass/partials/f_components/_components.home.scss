@@ -1,0 +1,27 @@
+#home-slides{
+  position: absolute;
+  @include fillScreen;
+}
+.home-slide{
+  @extend #home-slides;
+}
+
+#home-0{
+  background-image: url("../../images/home/0_bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#home-text{
+//  @include dev;
+  @include padding-custom(50px, 50px, 50px, 50px);
+  position: absolute;
+  left:100px;
+  top:100px;
+  width:320px;
+  background-color: rgba($black, 0.5);
+
+}
+
+
+

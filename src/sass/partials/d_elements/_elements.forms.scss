@@ -1,0 +1,30 @@
+input{
+  font-size: $mediumSmallText;
+  height: $inputHeight;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+}
+
+:-moz-placeholder {
+  color: red;
+}
+
+::-moz-placeholder {
+  color: red;
+}
+
+:-ms-input-placeholder {
+  color: red;
+}
+
+input[type=text]{
+
+}
+
+input[type=submit]{
+
+}
+
+

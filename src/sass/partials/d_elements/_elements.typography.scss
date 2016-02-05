@@ -1,0 +1,47 @@
+div{
+  font-size: $mediumSmallText;
+  font-weight: $light;
+}
+
+h1{
+  font-size: $largeText;
+  font-weight: $bold;
+  @include margin-vertical(5px);
+
+}
+
+h2{
+  font-size: $mediumLargeText;
+  font-weight: $bold;
+  @include margin-vertical(5px);
+}
+
+h3{
+  font-size: $mediumText;
+  font-weight: $bold;
+  @include margin-vertical(5px);
+}
+
+h4{
+  font-size: $mediumSmallText;
+  font-weight: $bold;
+  @include margin-vertical(5px);
+}
+
+h5{
+  font-size: $smallText;
+  font-weight: $bold;
+  @include margin-vertical(5px);
+}
+div{
+  font-family: $primary-font;
+  font-size: $mediumText;
+  letter-spacing: 0.5px;
+}
+
+p{
+  font-size: $mediumSmallText;
+  font-weight: $regular;
+  @include margin-vertical(5px);
+}
+

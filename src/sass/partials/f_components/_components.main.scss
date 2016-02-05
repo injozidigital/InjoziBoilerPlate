@@ -1,0 +1,23 @@
+#hamburger{
+  position:absolute;
+//  @include dev;
+  @include quad(35px, 25px);
+  z-index: 3;
+  @include margin-custom($pageMargin, 0px, 0px, $pageMargin);
+  opacity: 0.8;
+  cursor:pointer;
+}
+.h-line{
+  position: absolute;
+  @include quad(100%, 4px);
+  border-radius: 2.5px;
+  background-color: $white;
+}
+@for $i from 0 through 2{
+  #l#{$i}{
+    top:$i * 12px;
+  }
+}
+#l2{
+  width:25px;
+}

@@ -1,0 +1,13 @@
+.logo{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  @include quad(80px);
+  background-image: url("../../images/main/logo.svg");
+  background-size: 100%;
+  opacity: 0.8;
+  @include margin-custom(0px, $pageMargin, $pageMargin, 0px);
+  z-index: 4;
+
+}
+
