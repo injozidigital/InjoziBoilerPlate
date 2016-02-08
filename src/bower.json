@@ -17,6 +17,8 @@
     "examples"
   ],
   "dependencies": {
-      "jquery": ">=1.9.1"
+      "jquery": ">=1.9.1",
+    "requirejs": "^2.1.22",
+    "gsap": "^1.18.2"
     }
 }
