@@ -60,14 +60,10 @@
   }
 }
 
-@mixin pixelate(){
-  image-rendering: optimizeSpeed;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated;
-  image-rendering: optimize-contrast;
-  -ms-interpolation-mode: nearest-neighbor;
+@mixin centerVH() {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
